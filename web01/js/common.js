@@ -12,6 +12,15 @@ $(function () {
 })
 
 
+$(function () {
+    $('.popuplink').on('click', function () {
+        $('.popup').fadeIn();
+    })
+    $('.popup button').on('click', function () {
+        $('.popup').fadeOut();
+    })
+})
+
 
 var now = 1;
 setInterval(function() {
@@ -23,3 +32,12 @@ now = 1;
 $('.slide ul li').hide();
 $('.slide ul li').eq(now-1).fadeIn();
 }, 3000)
+
+$(function () {
+	$('.c1 h3').on('click', function () {
+        $(this).addClass('on').next().show();
+        $(this).parent('div').siblings('div')
+            .children('h3').removeClass('on')
+            .next().hide();
+    })
+})

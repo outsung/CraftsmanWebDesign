@@ -4,12 +4,12 @@
 * {color:#222328; list-style-type:none; text-decoration:none; margin:0px; padding:0px;}
 body {background-color:#ffffff;}
 
-.site {width:1200px;}
+.site {width:1200px; margin:auto;}
 
 header {height:100px;}
 header .logo { padding: 30px 0px 0px 20px; float:left;}
 nav { float:right; margin:25px 0px 0px 0px;}
-nav ul li { float:left; position:relative;}
+nav ul li { float:left; position:relative; margin:0px 10px 0px 0px;}
 nav ul li a { display:block; width:180px; height:50px; text-align:center; line-height: 50px;
 background-color:#9C3; transition:all 0.5s;}
 nav ul li a:hover {background-color:#9a8; }
@@ -23,7 +23,8 @@ nav ul li ul li a { background-color:#0CC;}
 
 .contents { height:200px;}
  
-.c1 {  height:200px; width:400px; float:left;}
+.c1 {  height:200px; width:400px; float:left; position:relative;}
+.c1 h3.on { background-color:#999;}
 .c2 { background-color:#863;  height:200px; width:400px; float:left;}
 .c3 { background-color:#764;  height:200px; width:400px; float:left;}
 
@@ -34,13 +35,14 @@ nav ul li ul li a { background-color:#0CC;}
 .board01 ul li { margin: 5px 5px 0px 3px;}
 .board01 ul li a {}
 .board01 ul li a:hover {color:#933; text-decoration:underline;}
-
 .board01 ul li span { float:right; font-size:12px; color:#999;}
 
 
-
-
-
+.board02 h3 { display:block; width: 120px; height:30px; border: 1px #993 solid; text-align:center; line-height:30px; margin:5px 0px 0px 10px; font-size:15px; cursor:pointer; transition:all 0.5s; position:absolute; left:130px; top:0px;}
+.board02 h3:hover { background-color:#966; color:#FFF;}
+.board02 ul{ display:none;}
+.board02 ul li { float:left; margin:15px 3px 0px 6px;}
+.board02 ul li:hover { opacity:0.5;}
 
 
 footer { height:100px; background-color:#696;}
@@ -48,3 +50,13 @@ footer { height:100px; background-color:#696;}
 .d1 {  background-color:#570; float:left;}
 .d2 { background-color:#463; float:left;}
 .d3 { background-color:#364; float:right;}
+
+
+
+.popup { display:none; position:fixed; left:0px; top:0px; width:100%; height:100%; background-color:rgba(30,100,40,0.8); text-align:center;}
+.popup dl { width:600px; height:500px; display:block; background-color:#FFF;
+margin:auto; margin-top:100px; border-radius:20px;}
+.popup dl dt { font-size:50px; padding-top:50px;}
+.popup dl dd { font-size:30px; padding:50px 20px; text-align:left; }
+.popup button { font-size:30px; width:200px; height:50px; margin-top:10px; transition:all 0.5s; cursor:pointer;}
+.popup button:hover { border-radius:30px;}
