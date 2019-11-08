@@ -3,6 +3,7 @@
 
 * {color:#222328; list-style-type:none; text-decoration:none; margin:0px; padding:0px;}
 body {background-color:#ffffff;}
+h3 { display:none;}
 
 .site {width:1200px; margin:auto;}
 
