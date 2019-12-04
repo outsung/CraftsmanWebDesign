@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+배경 색 : #ffffff
+텍스트 색 : #222328
+*/
+
+/*
+site : 1000 x 650
+
+A : 300 x 650
+B : 700 x 350
+C : 700 x 200
+  >c1 : 300 x 200
+  >c2 : 200 x 200
+  >c3 : 200 x 200
+D : 700 x 100
+*/
+
+
+*{ margin:0px; padding:0px; list-style:none; text-decoration:none; color:#222328;}
+h2{ display:none;}
+body{}
+
+.site{ width:1000px;}
+
+
+header{ width:280px; height:650px; float:left; margin-right:18px; border-right:2px #222328 solid;}
+
+header .logo{}
+header .logo a{}
+header .logo a img{ margin: 40px 0px 50px 35px;}
+
+header nav{}
+header nav ul{ margin:5px 0px 0px 35px;}
+header nav ul li{ width:202px;}
+header nav ul li a{ display:block; width:200px; height:70px; background-color:#ADD3FE; border:1px #000 solid;
+font-size: 25px; transition:all 0.5s; text-align:center; line-height:70px;}
+header nav ul li a:hover{background-color:#21548B; color:#fff;}
+header nav ul li ul{ margin:0px 0px 0px 0px; }
+header nav ul li ul li{}
+header nav ul li ul li a{height:50px; background-color:#ADD3FE; border:1px #000 solid; font-size: 20px; transition:all 0.5s; text-align:center; line-height:50px;}
+header nav ul li ul li a:hover{background-color:#21548B; color:#fff;}
+
+
+
+.slide{ width:700px; height:350px; float:left;}
+
+.slide ul{}
+.slide ul li{}
+.slide ul li a{}
+.slide ul li a img{}
+
+
+.contents{ width:700px; height:200px; float:left;}
+
+.c1{ width:300px; height:200px; float:left; position:relative;}
+.c1 h2{ display:block; position:absolute; top:0px; left:0px; margin: 30px 0px 0px 6px; color:#666; font-size:20px; transition:all 0.5s;}
+.c1 h2:hover{ margin: 20px 0px 0px 6px; color:#222328; font-size:23px; cursor:pointer;}
+.c1 h2.on{ margin: 20px 0px 0px 6px; color:#222328; font-size:23px;}
+
+
+.notice{}
+.notice ul{ margin: 70px 3px 0px 3px;}
+.notice ul li{}
+.notice ul li a{ font-size:17px; color:#222328; transition:all 0.5s;}
+.notice ul li a:hover{ color:#00C; text-decoration:underline;}
+.notice ul li span{ float:right; font-size:12px; color:#666; margin:3px 0px 0px 0px;}
+
+.gallery{}
+.gallery h2{ left:105px;}
+.gallery ul{ display:none;}
+.gallery ul li{ float:left; margin: 70px 8px 0px 8px;}
+.gallery ul li a{}
+.gallery ul li a img{ border:0px #069 solid; border-radius:20px; transition:all 0.5s;}
+.gallery ul li a img:hover{ border:4px #009 solid;}
+
+
+.c2{ width:200px; height:200px; float:left; position:relative;}
+.c2 a{}
+.c2 a img.banner{ position:absolute; width:150px; height:150px; margin:25px;}
+.c2 a img.banner_{ position:absolute; width:150px; height:150px; margin:25px; border:0px #F33 inset; border-radius:200px; transition:all 0.8s;}
+.c2 a img.banner_:hover{ width:180px; height:180px; border:15px #F33 inset; margin:-8px;}
+
+.c3{ width:200px; height:200px; float:left;}
+.c3 a{}
+.c3 a img{width:150px; margin:25px; transition:all 0.5s;}
+.c3 a img:hover{width:180px; margin:10px;}
+
+
+footer{ width:700px; height:98px; float:left; border-top:2px #222328 solid;}
+
+.d1{ width:200px; height:100px; float:left;}
+.d1 a{}
+.d1 a img{ margin:30px 0px 30px 30px; width: 150px;}
+
+.d2{ float:left; width:500px; margin-top:25px; text-align:center;}
+
+.d3{ float:left; width:500px; text-align:center;}
+
+
+.popup{ width:100%; height:100%; position:fixed; top:0px; left:0px; display:none; background-color:rgba(40,50,120,0.8);}
+.popup dl{ width:700; height:500px; background-color:fff; border-radius:60px; margin:100px auto; position:relative;}
+.popup dl dt{ font-size:40px; text-align:center; margin:50px 0px;}
+.popup dl dd{ font-size:20px; text-align:center;}
+.popup dl button{ width:80px; height:30px; background-color:#D2D2FF; position:absolute; top:450px; left:310px; transition:all 0.5s;}
+.popup dl button:hover{ background-color:#1E65EA;}
