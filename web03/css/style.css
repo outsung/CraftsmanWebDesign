@@ -1,0 +1,164 @@
+
+@charset "utr-8";
+
+*{}
+h3{ display:none;}
+
+body{}
+
+
+.site{}
+
+
+header{}
+header.logo{}
+
+header.nav{}
+header.nav nav{}
+header.nav nav ul{}
+header.nav nav ul li{}
+header.nav nav ul li ul{}
+header.nav nav ul li ul li{}
+
+.slide{}
+.slide ul{}
+.slide ul li{}
+.slide ul li img{}
+
+
+.c{}
+
+.c.c1{}
+.c.c1.notice{}
+.c.c1.notice ul{}
+.c.c1.notice ul li{}
+
+.c.c1.gallery{}
+.c.c1.gallery ul{}
+.c.c1.gallery ul li{}
+
+.c.c2{}
+.c.c2 img{}
+
+.c.c3{}
+.c.c3 img{}
+
+
+footer{}
+footer.d1{}
+footer.d2{}
+footer.d3{}
+
+
+.popup{}
+.popup dl{}
+.popup dl dt{}
+.popup dl dt dd{}
+
+
+
+
+
+/*
+<body>
+<div class="site">
+  <header>
+    <div class="logo">
+      <h3>로고</h3>
+      <a href="#"><img src="" alt="logo"/></a> </div>
+    <div class="nav">
+      <h3>네비</h3>
+      <nav>
+        <ul>
+          <li><a href="#">강원천문대</a>
+            <ul>
+              <li><a href="#">천문대소개</a></li>
+              <li><a href="#">인사말</a></li>
+              <li><a href="#">오시는길</a></li>
+            </ul>
+          </li>
+          <li> <a href="#">이용안내</a>
+            <ul>
+              <li><a href="#">프로그램</a></li>
+              <li><a href="#">관람시간표</a></li>
+              <li><a href="#">이달의 별자리</a></li>
+            </ul>
+          </li>
+          <li> <a href="#">천문대예약</a>
+            <ul>
+              <li><a href="#">예약소개</a></li>
+              <li><a href="#">예약확인</a></li>
+              <li><a href="#">예약취소</a></li>
+            </ul>
+          </li>
+          <li> <a href="#">커뮤니티</a>
+            <ul>
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">방문후기</a></li>
+              <li><a href="#">자유게시판</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="slide">
+    <h3>슬라이드</h3>
+    <ul>
+      <li><a href="#"><img src="" alt="slide01"/></a></li>
+      <li><a href="#"><img src="" alt="slide02"/></a></li>
+      <li><a href="#"><img src="" alt="slide03"/></a></li>
+    </ul>
+  </div>
+  <div class="c">
+    <div class="c1">
+    	<div class="notice">
+      <h3>공지사항</h3>
+      <ul>
+        <li><a href="#">공지공지공지공지공지공지</a><span>2019.11.27</span></li>
+        <li><a href="#">공지공지공지공지공지공지</a><span>2019.11.27</span></li>
+        <li><a href="#">공지공지공지공지공지공지</a><span>2019.11.27</span></li>
+        <li><a href="#">공지공지공지공지공지공지</a><span>2019.11.27</span></li>
+      </ul>
+      </div>
+      <div class="gallery">
+      <h3>갤러리</h3>
+      <ul>
+        <li><a href="#"><img src="" alt="gallery01"/></a></li>
+        <li><a href="#"><img src="" alt="gallery02"/></a></li>
+        <li><a href="#"><img src="" alt="gallery03"/></a></li>
+      </ul>
+      </div>
+    </div>
+    <div class="c2">
+      <h3>배너</h3>
+      <a href="#"><img src="" alt="banner"/></a> </div>
+    <div class="c3">
+      <h3>바로가기</h3>
+      <a href="#"><img src="" alt="link"/></a> </div>
+  </div>
+  <footer>
+    <div class="d1">
+      <h3>하단 로고</h3>
+      <a href="#"><img src="" alt="logo"/></a> </div>
+    <div class="d2">
+      <h3>하단 메뉴</h3>
+      내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용
+    </div>
+    <div class="d3">
+      <h3>카피라이트</h3>
+      내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용
+    </div>
+  </footer>
+</div>
+<div class="popup">
+  <h3>팝업창</h3>
+  <dl>
+    <dt>제목제목제목</dt>
+    <dd>내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용</dd>
+  </dl>
+  <button>닫기</button>
+</div>
+</body>
+</html>
+*/
