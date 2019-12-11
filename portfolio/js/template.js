@@ -8,7 +8,7 @@
  */
 
 
-var power = true;
+var power = false;
 
 
 function resize(){
@@ -46,6 +46,18 @@ function resize(){
 		$("#name").css("display", "none");
 	else
 		$("#name").css("display", "block");
+
+
+   // ID = Home
+   // size change 에 맞게 [candy] scale 수정한다.
+   // 
+   var main_x = $("#main").width();
+   var main_y = $("#main").height();
+   
+   console.log("size : " + main_x + ", " + main_y);
+
+   $("#candyRoom").css("width", main_x + "px");
+   $("#candyRoom").css("height", main_y + "px");
 }
 
 
@@ -53,18 +65,33 @@ window.onload = function () {
  resize();
 };
 
-
-$("#power").addEventListener("onClick",function(){
+var powerClick = function(){
 	if(power){
 		power = !power;
-		console.log("turn off");
+		//console.log("turn off");
+		$("#main").attr("src", "img/main.png");
+
+		$("body").css("backgroundColor", "#ffffff");
+		$("body").css("color", "#333333");
+		$("h1").css("color", "#333333");
+		$("h2").css("color", "#333333");
+		$("h4").css("color", "#333333");
+
+
 	}
 	else{
 		power = !power;
-		console.log("turn on");
-	}
-})
+		//console.log("turn on");
+		$("#main").attr("src", "img/main_.png");
 
+
+		$("body").css("backgroundColor", "#0B0500");
+		$("body").css("color", "#ffffff");
+		$("h1").css("color", "#ffffff");
+		$("h2").css("color", "#ffffff");
+		$("h4").css("color", "#ffffff");
+	}
+};
 
 
 

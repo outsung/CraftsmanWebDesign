@@ -42,6 +42,7 @@ img {  display: block;  max-width: 100%;  height: auto;  margin:0 auto;}
 .list-icons {  padding: 0;  margin: 20px 0;  list-style: none;  font-size: 18px;}
 .list-icons li {  padding: 0 0 15px 0;}
 blockquote {  border-left: none;  padding-left: 0;  padding-right: 0;}
+blockquote p {color:#333333;}
 .title {  margin-top: 0;}
 
 /* main
@@ -71,7 +72,7 @@ html,body{margin:0; padding:0; box-sizing:border-box;}
 .banner-caption {
 /*	background-color:rgba(252,252,252,0.63);*/  position: absolute;  top: 70%;  left:-120px;   width: 700px;  height: 200px;  /*z-index: 2;*/}
 .subfooter {  background-color: rgba(133,133,133,0.75);  color:white;  border-top: 1px solid #f3f3f3;  border-bottom: 1px solid #f3f3f3;  padding: 40px 0;}
-.section {  background-color: #fff;  padding: 80px 0;}
+.section {  padding: 80px 0;}
 
 
 
@@ -143,7 +144,7 @@ html,body{margin:0; padding:0; box-sizing:border-box;}
 ---------------------------------- */
 .panel-group .panel {  -webkit-border-radius: 0px;  -moz-border-radius: 0px;  border-radius: 0px;  border: none;}
 .panel-default > .panel-heading {  padding: 0;  outline: none;  border: none;  -webkit-border-radius: 0;  -moz-border-radius: 0;  -o-border-radius: 0;  border-radius: 0;  width: 100%;}
-.panel-default > .panel-heading + .panel-collapse > .panel-body {  border: 1px solid #f0f0f0;  border-top: none;  background-color: #f2f2f2;}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {  border: 1px solid #f0f0f0;  border-top: none;  background-color: #f2f2f2; color:#333333;}
 .panel-heading a {  font-weight: 400;  padding: 12px 35px 12px 15px;  display: inline-block;  width: 100%;  background-color: #A66F47;  color: #ffffff;  position: relative;  text-decoration: none;}
 .panel-heading a.collapsed {  color: #333;  background-color:#ffffff;}
 .panel-heading a:after {  font-family: "FontAwesome";  content: "\f147";  position: absolute;  right: 15px;  font-size: 14px;  font-weight: 300;  top: 50%;  line-height: 1;  margin-top: -7px;}

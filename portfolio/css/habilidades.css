@@ -4,10 +4,14 @@
 
 }
 
-.col-sm-6{
-	margin: 0px auto;
-}
 
+#candyRoom {
+	top : 0px;
+	left : 0px;
+	z-index: 1000;
+	position: absolute;
+	background-color: rgba(30, 30, 30, 0.0);
+ }
  /*width*/
 #codeconSkills {
 font-size: 15px;
