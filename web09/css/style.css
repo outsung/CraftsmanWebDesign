@@ -32,13 +32,13 @@ header .logo{}
 header .logo a{}
 header .logo a img{ margin: 40px 0px 50px 35px;}
 
-header nav{}
-header nav ul{ margin:5px 0px 0px 35px;}
+header nav{ }
+header nav ul{ margin:5px 0px 0px 35px; position:relative; z-index:10; }
 header nav ul li{ width:202px;}
 header nav ul li a{ display:block; width:200px; height:70px; background-color:#ADD3FE; border:1px #000 solid;
-font-size: 25px; transition:all 0.5s; text-align:center; line-height:70px;}
+font-size: 25px; transition:all 0.5s; text-align:center; line-height:70px; }
 header nav ul li a:hover{background-color:#21548B; color:#fff;}
-header nav ul li ul{ margin:0px 0px 0px 0px; }
+header nav ul li ul{ position:absolute; margin:0px 0px 0px 0px; top:0px; left:201px;}
 header nav ul li ul li{}
 header nav ul li ul li a{height:50px; background-color:#ADD3FE; border:1px #000 solid; font-size: 20px; transition:all 0.5s; text-align:center; line-height:50px;}
 header nav ul li ul li a:hover{background-color:#21548B; color:#fff;}

@@ -87,10 +87,16 @@
       주요사항| 행사일정 | 회사소개 | 찾아오시는길 </div>
     <div class="e3">
       <h2>패밀리사이트</h2>
-      <select>
-        <option>패밀리사이트</option>
+      <select onChange="window.open(this.value);">
+        <option value="">패밀리사이트</option>
         <option>패밀리사이트 option2</option>
         <option>패밀리사이트 option3</option>
+      </select>
+      <select onchange="window.open(this.value);"> 
+        <option>패밀리사이트</option>
+        <option value="http://naver.com/">네이버</option>
+        <option value="http://daum.net/">다음</option>
+        <option value="http://google.com/">구글</option>
       </select>
     </div>
   </footer>
