@@ -8,31 +8,32 @@
  */
 
 
+var power = true;
 
 
 function resize(){
 	var size = window.innerWidth
 	var fontsize = size/1000*13+5;
-	var top = size/1000*223-53;
-	//console.log("사이즈 : ",size,"폰트 사이즈 : ",fontsize);
+	var top = size*408/1220-84;
+	//console.log("top : ",top,size);
 	$("#banner1 .bora h1").css("fontSize" , fontsize+"px");
-
+	$("#banner1 .bora h1").css("lineHeight" , fontsize*2+"px");
 	$("#banner1 .bora").css("top" , top+"px");
 
 
 	//var skilltop = size;
-	console.log(((size/100*-9)-76),"top");
+	//console.log(((size/100*-9)-76),"top");
 	$(".habilidades").css("top",((size/100*-9)-76) +"px");
 
 
-	console.log(size/100*26+119,"width");
+	//console.log(size/100*26+119,"width");
 	$("#codeconSkills").css("width", size/100*26+119+"px");
 	$("#codeconSkills").next().css("width", size/100*26+119+"px");
 	$("#codeconSkills").next().next().css("width", size/100*26+119+"px");
 	//$(".codeconSkillbar").css("width", size/100*26+119+"px");
 
 	var h = size/10000*65+25;
-	console.log(h,"top");
+	//console.log(h,"top");
 	$("#codeconSkills p").css("lineHeight", h+"px");
 	$("#codeconSkills p").css("fontSize", size/610+13+"px");
 
@@ -41,6 +42,10 @@ function resize(){
 	$(".codeconSkillbar").css("height", h+"px");
 
 
+	if(size <= 770)
+		$("#name").css("display", "none");
+	else
+		$("#name").css("display", "block");
 }
 
 
@@ -49,6 +54,16 @@ window.onload = function () {
 };
 
 
+$("#power").addEventListener("onClick",function(){
+	if(power){
+		power = !power;
+		console.log("turn off");
+	}
+	else{
+		power = !power;
+		console.log("turn on");
+	}
+})
 
 
 
