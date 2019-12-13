@@ -4,6 +4,35 @@
 
 }
 
+
+
+#new{margin: 50px 50px 0px 0px;
+	float: right;
+}
+
+#new ul{ list-style: none;}
+#new ul li{
+	position: relative;
+	overflow: hidden;
+	margin-left: 40px;
+	float: left;
+
+	width: 130px;
+	height: 130px;
+	border-radius: 130px;
+}
+#new ul li img{
+	height: 130px;
+	width: 130px;
+	position: absolute;
+	transition: all 0.5s;
+}
+#new ul li img:hover{
+	opacity: 0.5;
+
+}
+
+
 .link{
 	margin: 5px 0px 0px 0px;
 	float: left;
@@ -31,7 +60,7 @@ width: 300px;
 line-height:
 font-size: 16px;
 */
-#codeconSkills p{position:absolute; z-index: 999999; line-height: 30px; margin-left: 25px; font-size: 14px; }
+#codeconSkills p{color: #333333; position:absolute; z-index: 999999; line-height: 30px; margin-left: 25px; font-size: 14px; }
 #codeconSkills img {
 width: 50px;
 height:50px;

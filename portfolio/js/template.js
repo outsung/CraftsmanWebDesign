@@ -70,6 +70,7 @@ var powerClick = function(){
 		power = !power;
 		//console.log("turn off");
 		$("#main").attr("src", "img/main.png");
+		$("#candyRoom img").attr("src", "img/switch.png");
 
 		$("body").css("backgroundColor", "#ffffff");
 		$("body").css("color", "#333333");
@@ -78,18 +79,25 @@ var powerClick = function(){
 		$("h4").css("color", "#333333");
 
 
+	
+		$(".codeconSkillbar").css("backgroundColor", "rgba(17, 17, 17, .3)");
+
 	}
 	else{
 		power = !power;
 		//console.log("turn on");
 		$("#main").attr("src", "img/main_.png");
-
+		$("#candyRoom img").attr("src", "img/switch_.png");
 
 		$("body").css("backgroundColor", "#0B0500");
 		$("body").css("color", "#ffffff");
 		$("h1").css("color", "#ffffff");
 		$("h2").css("color", "#ffffff");
 		$("h4").css("color", "#ffffff");
+
+
+		$(".codeconSkillbar").css("backgroundColor", "rgba(180, 180, 180, .3)");
+
 	}
 };
 
