@@ -56,10 +56,7 @@ vertical-align: bottom;
 width: 300px;
 }
 
-/*이거
-line-height:
-font-size: 16px;
-*/
+
 #codeconSkills p{color: #333333; position:absolute; z-index: 999999; line-height: 30px; margin-left: 25px; font-size: 14px; }
 #codeconSkills img {
 width: 50px;
@@ -69,15 +66,12 @@ position: absolute;
 right: -70px;
 display: none;
 }
- /*이거
- height: 30px;
- */
+
 .codeconSkillbar {
 width: 100%;
 height: 30px;
 position: relative;
 background: rgba(17, 17, 17, .3);
-/*margin: 20px 0;*/
 border-radius: 25px;
 }
 #codeconHTML {
@@ -161,9 +155,7 @@ position: absolute;
 background-color: #99856d;
 }
 
- /*이거도
-height: 30px;
- */
+
 .skillBar {
 	width: 5%;
 	height: 30px;
@@ -211,9 +203,7 @@ to {
 }
 #codeconCakePHP {
 	animation: Animate-CakePHP 5s;
-	/*-webkit-animation: Animate-jQuery 5s;
-	-moz-animation: Animate-jQuery 5s;
-	-o-animation: Animate-jQuery 5s;*/
+
 	width: 60%;
 	height: 50px;
 	position: absolute;

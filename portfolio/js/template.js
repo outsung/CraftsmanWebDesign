@@ -1,12 +1,3 @@
-/* Theme Name: Worthy - Free Powerful Theme by HtmlCoder
- * Author:HtmlCoder
- * Author URI:http://www.htmlcoder.me
- * Version:1.0.0
- * Created:November 2014
- * License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
- * File Description: Initializations of plugins
- */
-
 
 var power = false;
 
@@ -15,25 +6,22 @@ function resize(){
 	var size = window.innerWidth
 	var fontsize = size/1000*13+5;
 	var top = size*408/1220-84;
-	//console.log("top : ",top,size);
 	$("#banner1 .bora h1").css("fontSize" , fontsize+"px");
 	$("#banner1 .bora h1").css("lineHeight" , fontsize*2+"px");
 	$("#banner1 .bora").css("top" , top+"px");
 
 
-	//var skilltop = size;
-	//console.log(((size/100*-9)-76),"top");
 	$(".habilidades").css("top",((size/100*-9)-76) +"px");
 
 
-	//console.log(size/100*26+119,"width");
+
 	$("#codeconSkills").css("width", size/100*26+119+"px");
 	$("#codeconSkills").next().css("width", size/100*26+119+"px");
 	$("#codeconSkills").next().next().css("width", size/100*26+119+"px");
-	//$(".codeconSkillbar").css("width", size/100*26+119+"px");
+
 
 	var h = size/10000*65+25;
-	//console.log(h,"top");
+
 	$("#codeconSkills p").css("lineHeight", h+"px");
 	$("#codeconSkills p").css("fontSize", size/610+13+"px");
 
@@ -48,13 +36,10 @@ function resize(){
 		$("#name").css("display", "block");
 
 
-   // ID = Home
-   // size change 에 맞게 [candy] scale 수정한다.
-   // 
+
    var main_x = $("#main").width();
    var main_y = $("#main").height();
-   
-   console.log("size : " + main_x + ", " + main_y);
+
 
    $("#candyRoom").css("width", main_x + "px");
    $("#candyRoom").css("height", main_y + "px");
@@ -68,7 +53,6 @@ window.onload = function () {
 var powerClick = function(){
 	if(power){
 		power = !power;
-		//console.log("turn off");
 		$("#main").attr("src", "img/main.png");
 		$("#candyRoom img").attr("src", "img/switch.png");
 
@@ -79,13 +63,12 @@ var powerClick = function(){
 		$("h4").css("color", "#333333");
 
 
-	
+
 		$(".codeconSkillbar").css("backgroundColor", "rgba(17, 17, 17, .3)");
 
 	}
 	else{
 		power = !power;
-		//console.log("turn on");
 		$("#main").attr("src", "img/main_.png");
 		$("#candyRoom img").attr("src", "img/switch_.png");
 
@@ -109,8 +92,7 @@ var powerClick = function(){
 
 		$(".banner-image").backstretch('img/banner.jpg');
 
-		// Fixed header
-		//-----------------------------------------------
+
 		$(window).scroll(function() {
 			if (($(".header.fixed").length > 0)) {
 				if(($(this).scrollTop() > 0) && ($(window).width() > 767)) {
@@ -131,8 +113,7 @@ var powerClick = function(){
 			};
 		});
 
-		//Scroll Spy
-		//-----------------------------------------------
+
 		if($(".scrollspy").length>0) {
 			$("body").addClass("scroll-spy");
 			$('body').scrollspy({
@@ -141,8 +122,7 @@ var powerClick = function(){
 			});
 		}
 
-		//Smooth Scroll
-		//-----------------------------------------------
+
 		if ($(".smooth-scroll").length>0) {
 			$('.smooth-scroll a[href*=#]:not([href=#]), a[href*=#]:not([href=#]).smooth-scroll').click(function() {
 				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -158,8 +138,7 @@ var powerClick = function(){
 			});
 		}
 
-		// Animations
-		//-----------------------------------------------
+
 		if (($("[data-animation-effect]").length>0) && !Modernizr.touch) {
 			$("[data-animation-effect]").each(function() {
 				var $this = $(this),
@@ -176,8 +155,7 @@ var powerClick = function(){
 			});
 		};
 
-		// Isotope filters
-		//-----------------------------------------------
+
 		if ($('.isotope-container').length>0) {
 			$(window).load(function() {
 				$('.isotope-container').fadeIn();
@@ -187,7 +165,7 @@ var powerClick = function(){
 					transitionDuration: '0.6s',
 					filter: "*"
 				});
-				// filter items on button click
+
 				$('.filters').on( 'click', 'ul.nav li a', function() {
 					var filterValue = $(this).attr('data-filter');
 					$(".filters").find("li.active").removeClass("active");
@@ -198,13 +176,13 @@ var powerClick = function(){
 			});
 		};
 
-		//Modal
-		//-----------------------------------------------
+
+
 		if($(".modal").length>0) {
 			$(".modal").each(function() {
 				$(".modal").prependTo( "body" );
 			});
 		}
 
-	}); // End document ready
+	}); 
 })(this.jQuery);

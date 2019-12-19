@@ -1,13 +1,4 @@
-/* Theme Name:Worthy - Free Powerful Theme by HtmlCoder
-Author:HtmlCoder
-Author URI:http://www.htmlcoder.me
-Version:1.0.0
-Created:November 2014
-License:Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
-File Description:Main CSS file of the template */
 
-/* Typography
------------------------------------------------------------------------------ */
 body {  font-family: 'Open Sans', sans-serif;}
 .site-name {  font-family: 'Raleway', sans-serif;  font-weight: 600;}
 html,
@@ -45,8 +36,7 @@ blockquote {  border-left: none;  padding-left: 0;  padding-right: 0;}
 blockquote p {color:#333333;}
 .title {  margin-top: 0;}
 
-/* main
------------------------------------------------------------------------------ */
+
 *{margin:0; padding:0;}
 html,body{margin:0; padding:0; box-sizing:border-box;}
 
@@ -63,21 +53,19 @@ html,body{margin:0; padding:0; box-sizing:border-box;}
 {	#banner1 .bora{position:relative; margin-top:-80px; left:27%}
 .slick-prev, .slick-next{visibility:hidden;}
 }
-/* Layout
------------------------------------------------------------------------------ */
+
 .header {  color: #ffffff;  background-color: rgba(0, 0, 0, 0.10);  padding: 10px 0;  -webkit-transition: all 0.2s ease-in-out;  -moz-transition: all 0.2s ease-in-out;  -o-transition: all 0.2s ease-in-out;  -ms-transition: all 0.2s ease-in-out;  transition: all 0.2s ease-in-out;}
 .banner {  width: 100%;  height: 100%;  min-height: 100%;  position: relative;  color:rgba(85,85,85,1.00);}
 .banner-image {  vertical-align: middle;  min-height: 100%;  width: 100%;}
-/*.banner:after {  position: absolute;  top: 0;  left: 0;  right: 0;  bottom: 0;  background-color: rgba(0, 0, 0, 0.55);  content: "";}*/
+
 .banner-caption {
-/*	background-color:rgba(252,252,252,0.63);*/  position: absolute;  top: 70%;  left:-120px;   width: 700px;  height: 200px;  /*z-index: 2;*/}
+  position: absolute;  top: 70%;  left:-120px;   width: 700px;  height: 200px;  /*z-index: 2;*/}
 .subfooter {  background-color: rgba(133,133,133,0.75);  color:white;  border-top: 1px solid #f3f3f3;  border-bottom: 1px solid #f3f3f3;  padding: 40px 0;}
 .section {  padding: 80px 0;}
 
 
 
-/* Backgrounds
------------------------------------------------------------------------------ */
+
 
 .service{background-color: #fff1de;}
 .default-bg {  background-color: #222222;  color: #ffffff;}
@@ -108,22 +96,19 @@ html,body{margin:0; padding:0; box-sizing:border-box;}
 .translucent-bg .container {  z-index: 3;  position: relative;}
 
 
-/* Misc
------------------------------------------------------------------------------ */
+
 .object-non-visible {  opacity: 0;  filter: alpha(opacity=0);}
 .object-visible,
 .touch .object-non-visible {  opacity: 1 !important;  filter: alpha(opacity=100) !important;}
 
-/* Targeting only Firefox for smoothest animations */
+
 @-moz-document url-prefix() {  .object-visible,  .touch .object-non-visible {  	-webkit-transition: opacity 0.6s ease-in-out;  	-moz-transition: opacity 0.6s ease-in-out;  	-o-transition: opacity 0.6s ease-in-out;  	-ms-transition: opacity 0.6s ease-in-out;  	transition: opacity 0.6s ease-in-out;  }}
 .space {  padding: 20px 0;}
 .pr-10 {  padding-right: 10px;}
 .pl-10 {  padding-left: 10px;}
 .pb-clear {  padding-bottom: 0;}
 
-/* Sections
------------------------------------------------------------------------------ */
-/*.banner-caption h1,*/
+
 .banner-caption h2,
 .banner-caption h3,
 .banner-caption h4,
@@ -132,16 +117,12 @@ html,body{margin:0; padding:0; box-sizing:border-box;}
 .banner-caption h1 {  color:rgba(67,67,67,1.00);  font-size: 40px;}
 .subfooter p {  margin-bottom: 0;}
 
-/* Template Components
------------------------------------------------------------------------------ */
-/* Buttons
----------------------------------- */
+
 .btn {  padding: 8px 15px;  font-size: 14px;  line-height: 1.42857143;  min-width: 160px;  text-align: center;  border-radius: 0;  text-transform: uppercase;  -webkit-transition: all 0.2s ease-in-out;  -moz-transition: all 0.2s ease-in-out;  -ms-transition: all 0.2s ease-in-out;  -o-transition: all 0.2s ease-in-out;  transition: all 0.2s ease-in-out;}
 .btn-default {  color: #AF7B42;;;  border: 1px solid #cccccc;}
 .btn-default:hover {  color: #AF7B42;;  font-weight:bold;  background-color: #ffffff;  border-color: #ffffff;  box-shadow:0px 2px 5px rgba(153,153,153,0.3);}
 
-/* Collapse
----------------------------------- */
+
 .panel-group .panel {  -webkit-border-radius: 0px;  -moz-border-radius: 0px;  border-radius: 0px;  border: none;}
 .panel-default > .panel-heading {  padding: 0;  outline: none;  border: none;  -webkit-border-radius: 0;  -moz-border-radius: 0;  -o-border-radius: 0;  border-radius: 0;  width: 100%;}
 .panel-default > .panel-heading + .panel-collapse > .panel-body {  border: 1px solid #f0f0f0;  border-top: none;  background-color: #f2f2f2; color:#333333;}
@@ -152,37 +133,32 @@ html,body{margin:0; padding:0; box-sizing:border-box;}
 .panel-heading a:hover {  text-decoration: none;  background-color: #A66F47;  color: #ffffff;}
 .panel-title a i {  padding-right: 10px;  font-size: 20px;}
 
-/* Pills
----------------------------------- */
+
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus,
 .nav-pills > li > a:hover {  background-color: #AF7B42;;  border-color: #AF7B42;;  color: #ffffff;}
 .nav-pills > li > a {  border-radius: 0;  padding: 8px 20px;  border: 1px solid #cacaca;  color: #666666;  font-size: 12px;  text-transform: uppercase;  font-weight: 300;}
 
-/* Forms
----------------------------------- */
+
 .form-control {  height: 45px;  -webkit-border-radius: 0px;  -moz-border-radius: 0px;  border-radius: 0px;}
 .form-control-feedback {  color: #cccccc;}
 .has-feedback label.sr-only ~ .form-control-feedback {  top: 15px;}
 textarea {  resize: vertical;}
 
-/* Modals
----------------------------------- */
+
 .modal-content {  -webkit-border-radius: 0px;  -moz-border-radius: 0px;  border-radius: 0px;}
 .modal-header {  background-color: #AF7B42;;  color: #ffffff;}
 .modal-header h4 {  color: #ffffff;}
 .modal-header .close {  font-weight: 300;  color: #FFFFFF;  text-shadow: none;  filter: alpha(opacity=100);  opacity: 1;}
 
-/* Large devices (Large desktops 1200px and up) */
+
 @media (min-width:1200px) {  .modal-lg {  	width: 1140px;  }}
 
-/* Media
----------------------------------- */
+
 .media .fa {  font-size: 24px;  width: 40px;  height: 25px;  line-height: 25px;  padding: 0 5px;  text-align: center;}
 
-/* Navigations
------------------------------------------------------------------------------ */
+
 .header .navbar {  margin-bottom: 0;}
 .main-navigation .navbar-default {  background-color: transparent;  border: none;}
 .main-navigation .navbar-default .navbar-nav > li > a {  color: #fff;  padding: 10px 20px;  font-size: 18px;  font-weight: 600;}
@@ -193,18 +169,14 @@ textarea {  resize: vertical;}
 @media (min-width:768px) and (max-width:991px) {  .main-navigation .container-fluid {  	padding-left: 0;  	padding-right: 0;  }  .navbar-nav {  	float: left !important;  }}
 @media (max-width:767px) {  .header.navbar-fixed-top {  	position: absolute;  }}
 
-/* Fixed Header
------------------------------------------------------------------------------ */
+
 .fixed-header-on .header {  background-color: rgba(133,133,133,0.75);  padding: 5px 0;}
 .fixed-header-on .site-name {  font-size: 20px;  font-weight: 600;}
 .fixed-header-on .logo {  -webkit-transform: scale(0.8);  transform: scale(0.8);  margin-top: 0;  margin-bottom: 0;}
 @media (min-width:768px) {  .fixed-header-on .navbar-default .navbar-nav > li > a {  	padding-top: 20px;  	padding-bottom: 20px;  }}
 @media (max-width:991px) {  .fixed-header-on .logo,  .fixed-header-on .site-name,  .fixed-header-on .site-slogan {  	display: none;  }}
 
-/* Blocks/Widgets
------------------------------------------------------------------------------ */
-/* Logo, Site Name, Site Slogan
----------------------------------- */
+
 .logo {  margin: 10px 10px 10px 0;  -webkit-transition: all 0.3s ease-in-out;  -moz-transition: all 0.3s ease-in-out;  -o-transition: all 0.3s ease-in-out;  -ms-transition: all 0.3s ease-in-out;  transition: all 0.3s ease-in-out;}
 .logo,
 .site-name-and-slogan {  float: left;}
@@ -213,12 +185,10 @@ textarea {  resize: vertical;}
 .site-name a:hover {  text-decoration: none;}
 .site-slogan {  font-size: 12px;  font-weight: 600;}
 
-/* Testimonials
----------------------------------- */
+
 .testimonial .media-left {  width: 60px;}
 
-/* Social Links
----------------------------------- */
+
 .social-links {  padding: 0;  list-style: none;  margin: 15px 0;}
 .social-links li {  margin: 10px 25px 10px 0;  display: inline-block;  font-size: 36px;}
 .social-links li a {  color: #333333;  -webkit-transition: all 0.2s ease-in-out;  -moz-transition: all 0.2s ease-in-out;  -o-transition: all 0.2s ease-in-out;  -ms-transition: all 0.2s ease-in-out;  transition: all 0.2s ease-in-out;}
@@ -231,8 +201,7 @@ textarea {  resize: vertical;}
 .social-links li.facebook a:hover {  color: #3b5998;}
 .social-links li.pinterest a:hover {  color: #cb2027;}
 
-/* Isotope Items
----------------------------------- */
+
 .filters {  margin: 0 0 30px 0;}
 .filters .nav-pills > li {  margin-right: 2px;  margin-bottom: 2px;}
 .filters .nav-pills > li + li {  margin-left: 0px;}
@@ -243,8 +212,7 @@ textarea {  resize: vertical;}
 .isotope-item .btn-default:hover {  color:rgb(255, 255, 255);  background-color:#AF7B42;  border:none;}
 @media (max-width:480px) {  .filters .nav-pills > li {  	width: 100%;  	display: block;  }}
 
-/* Images Overlay
------------------------------------------------------------------------------ */
+
 .overlay-container {  position: relative;  display: block;  overflow: hidden;}
 .overlay {  position: absolute;  top: 0;  bottom: -1px;  left: 0;  right: -1px;  background-color: rgb(68, 45, 29,0.8);  cursor: pointer;  overflow: hidden;  opacity: 0;  filter: alpha(opacity=0);  -webkit-transform: scale(0.8);  transform: scale(0.8);  -webkit-transition: all linear 0.2s;  -moz-transition: all linear 0.2s;  -ms-transition: all linear 0.2s;  -o-transition: all linear 0.2s;  transition: all linear 0.2s;}
 .overlay:hover {  text-decoration: none;}
